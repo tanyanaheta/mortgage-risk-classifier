@@ -12,7 +12,8 @@ This project aimed to develop a transparent, stakeholder-ready logistic regressi
 
 ## 📊 Key Results
 - AUC of 0.83 using logistic regression with regularization
-- ![Boxplot of Borrower Features](boxplot.png)
+- Boxplots of Key Features by Foreclosure Status 
+<img src="boxplot.png" alt="Boxplot" width="500"/>
 - Strongest predictors: credit score (inverse), loan-to-value, interest rate
 - Found compounding risk in credit score × interest rate interactions
 
